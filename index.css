@@ -1,15 +1,13 @@
 h1 {
 	font-size:200%;
 	text-align: center;
-	border: 5px solid #6666ff;
-	border-radius: 15px;
+	border-bottom: 1px solid #6666ff;
 	padding: 5px;
 	margin-top: 0;
 }
 
 body {
 	font-family: Courier;
-	background-image: url("img/gradient.png");
 	background-repeat: repeat-x;
 	font-size: 100%;
 }
@@ -46,8 +44,7 @@ nav {
 	background-color: white;
 	margin: 20px;
 	padding: 5px;
-	border: 1px solid black;
-	border-radius: 15px;
+	border-bottom: 1px solid #6666ff;
 	overflow: auto;
 }
 
@@ -55,8 +52,7 @@ nav {
 	background-color: white;
 	margin: 20px;
 	padding: 5px;
-	border: 1px solid black;
-	border-radius: 15px;
+	border-bottom: 1px solid #6666ff;
 }
 
 p {
