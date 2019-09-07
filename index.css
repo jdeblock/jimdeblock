@@ -1,0 +1,108 @@
+h1 {
+	font-size:200%;
+	text-align: center;
+	border: 5px solid #6666ff;
+	border-radius: 15px;
+	padding: 5px;
+	margin-top: 0;
+}
+
+body {
+	font-family: Courier;
+	background-image: url("img/gradient.png");
+	background-repeat: repeat-x;
+	font-size: 100%;
+}
+
+nav {
+	text-align: center;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 200%;
+}
+
+.img-left {
+	float:left;
+	margin-right: 10px;
+}
+
+.img-center {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.paraWImg {
+	background-color: white;
+	margin: 20px;
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 15px;
+	overflow: auto;
+}
+
+.para {
+	background-color: white;
+	margin: 20px;
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 15px;
+}
+
+p {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+.center {
+	text-align: center;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	background-color: #6666ff;
+	border: 1px solid #333333;
+	border-radius: 15px;
+}
+
+a:hover, a:active {
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	background-color: #0066cc;
+	border: 1px solid #333333;
+	border-radius: 15px;
+}
+
+a.cur {
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	background-color: #0066cc;
+	border: 1px solid #333333;
+	border-radius: 15px;
+}
+
+p.footer {
+	position: absolute;
+	bottom:0;
+	font-size:70%;
+	left: 45%;
+}
