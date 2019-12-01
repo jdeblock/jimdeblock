@@ -8,7 +8,8 @@ h1 {
 
 body {
 	font-family: Courier;
-	background-repeat: repeat-x;
+	background-repeat: repeat;
+	background-image: url(img/back.jpg);
 	font-size: 100%;
 }
 
@@ -41,7 +42,6 @@ nav {
 }
 
 .paraWImg {
-	background-color: white;
 	margin: 20px;
 	padding: 5px;
 	border-bottom: 1px solid #6666ff;
@@ -49,7 +49,6 @@ nav {
 }
 
 .para {
-	background-color: white;
 	margin: 20px;
 	padding: 5px;
 	border-bottom: 1px solid #6666ff;
