@@ -1,0 +1,47 @@
+div.paragraphSection {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    display: block;
+    clear: both;
+    padding: 1rem 0;
+    overflow: hidden;
+
+    &.hasDivider {
+        border-bottom: 2px solid orange;
+    }
+
+    &.text-center {
+        text-align: center;
+    }
+
+    &.text-left {
+        text-align: left;
+    }
+
+    &.text-right {
+        text-align: right;
+    }
+
+    &.left img {
+        float: left;
+        margin-right: 1rem;
+    }
+
+    &.right img {
+        float: right;
+        margin-left: 1rem;
+    }
+
+    &.image-border img {
+        border: 2px solid black;
+        width: 15rem;
+        padding: 1rem;
+        border-radius: 100px;
+        vertical-align: middle;
+    }
+
+    &.image-center img, &.image-center iframe {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
