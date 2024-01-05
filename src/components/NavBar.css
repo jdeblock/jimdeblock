@@ -1,0 +1,63 @@
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.headerContainer {
+    width: 310px;
+}
+
+h1 {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-size:2.5rem;
+    color: white;
+    background-color: black;
+    text-align: center;
+    display: block;
+
+    letter-spacing: .15em;
+    white-space: nowrap;
+    margin: 0 auto; 
+    overflow: hidden;
+    border-right: .15em solid orange;
+    animation: 
+    typing 2s steps(30, end),
+    blink-caret .75s step-end infinite;
+}
+
+nav {
+    margin-top: 0.5rem;
+    text-align: center;
+    display: block;
+    white-space: pre-line;
+
+    a {
+        font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+        color: white;
+        background-color: black;
+        text-decoration: none;
+        margin: 1rem;
+        font-size: 2rem;
+    }
+    
+    a:hover, a:active {
+        color: orange;
+    }
+
+    a.current {
+        border: 2px solid orange;
+    }
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
